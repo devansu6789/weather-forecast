@@ -1,0 +1,41 @@
+.locationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  color: white;
+  min-width: 400px;
+  width: 600px;
+  height: 100vh;
+  border: none;
+  background: rgba(46, 46, 46, 0.247);
+  backdrop-filter: blur(70.3px);
+  -webkit-backdrop-filter: blur(70.3px);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  float: right;
+}
+
+.item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.item1 > :nth-child(1) {
+  font-size: 6rem;
+}
+
+.item1 > div {
+  font-size: 3.5rem;
+  font-weight: medium;
+}
+
+.item1Child {
+  flex: 1 0 33%;
+}

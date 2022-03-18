@@ -1,0 +1,30 @@
+.weatherDetailsContainer {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  color: white;
+}
+
+.temp {
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 8rem;
+}
+
+.temp::after {
+  content: "\00b0";
+}
+.locationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.place {
+  font-size: 3.5rem;
+}
+
+.locationDetails {
+  display: flex;
+  justify-content: space-between;
+}
